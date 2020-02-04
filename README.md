@@ -68,7 +68,7 @@ void consumer(void *param) {
 		unsigned int size = reply->integer;
 		printf("LLEN list: %lld\n", size);
 		freeReplyObject(reply);
-		for (int i = 0; i < 100 && (size >= 100); i++) {
+		for (int i = 0; i < 100 ; i++) {
 			reply = (redisReply*)redisCommand(context, "BLPOP list 0");
 			freeReplyObject(reply);
 		}
