@@ -98,7 +98,7 @@ CPU @ 2.50GHz 2.49GHz
 System x64
 ```
 
-## Reference
+## References
  * [Redis Native Producer Consumer](https://github.com/vicboma1/Redis-Native-Producer-Consumer)
  * [Bufferedis - Asynchronous Fork](https://github.com/vicboma1/bufferedis)
  
