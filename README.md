@@ -89,5 +89,8 @@ CPU @ 2.50GHz 2.49GHz
 System x64
 ```
 
+## Reference
+ * [Redis Native Producer Consumer](https://github.com/vicboma1/Redis-Native-Producer-Consumer)
+ 
 ## Video
-### [Redis Native (Hiredis):  Producer Consumer Performance Testing | Visual Studio C/C++](https://youtu.be/3aRJe4E3X6w)
+*  [Redis Native (Hiredis):  Producer Consumer Performance Testing | Visual Studio C/C++](https://youtu.be/3aRJe4E3X6w)
