@@ -1,5 +1,14 @@
 # Redis Native: Producer/Consumer Performance Testing
 
+Complexity
+```
+LREN    - O(N), N
+LRANGE  - O (S + N)
+LINDEX  - O (N)
+LINSET  - O (N)
+LSET    - O (N), O (1) for header and tail
+LTRIM   - O (N)
+```
 
 Connection
 ```c
